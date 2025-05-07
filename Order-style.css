@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #0e2e2e;
+    color: #fffbe9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .order-contact .container {
+    text-align: center;
+    background-color: #fffbe9;
+    color: #0e2e2e;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .small-text {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #f4a261;
+    color: #0e2e2e;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #e8923c;
+  }
+  
+  /* Optional: Responsive Google Form */
+  iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+  }

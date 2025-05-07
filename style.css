@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #0e2e2e;
+    color: #fffbe9;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #0e2e2e;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid #f4a261;
+    }
+  
+  .logo img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .logo h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+    color: #fff;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffbba2;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #f4a261;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.3rem;
+  }
+  
+  .menu-section {
+    text-align: center;
+    background-color: #fffbe9;
+    color: #0e2e2e;
+    padding: 2rem 1rem;
+  }
+  
+  .menu-section img {
+    max-width: 1400px;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-buttons button {
+    background-color: #f4a261;
+    color: #0e2e2e;
+  }
+  
+  .about {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #0e2e2e;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #ffbba2;
+  }
+  
